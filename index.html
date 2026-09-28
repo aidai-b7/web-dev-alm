@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-визитка Бакай Айдай</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <h1 class="logo">aidai-soft_engineer</h1>
+            <nav class="nav">
+                <a href="#about">Обо мне</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="container hero-content">
+                <div>
+                    <h3 class="hero-subtitle">Привет! Меня зовут Айдай</h3>
+                    <h2>
+                        Я и моя команда создаем сайты для бизнесов и больших магазинов
+                    </h2>
+                    <h4 class="hero-text">
+                        Работаем качественно и мы всегда на связи
+                    </h4>
+                    <button id="moreButton">
+                        Узнать больше
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>О нас</h2>
+                <p>
+                    Мы только начинаем работать и сайт совсем новый, поэтому информации мало, но если вы заинтересованы в усулгах то просим Вас связаться с нами! Мы работаем с такими технологиями как:
+                </p>
+                <div class="skills">
+                    <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
+                    <div class="skill">JavaScript</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Наши проекты</h2>
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <h3>Мыломойка и косметика</h3>
+                        <p>
+                            Одностраничный сайт для небольшого магазина.
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Кофейня в небольшом посёлке</h3>
+                        <p>
+                            Сайт с несколькими страницами
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Приложение для людей, любящих музыку</h3>
+                        <p>
+                            Простое веб-приложение на JavaScript.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Связаться с нами</h2>
+                <p>
+                    Если хотите обсудить проект, напишите нам.
+                </p>
+                <button id="contactButton">
+                    Показать контакты
+                </button>
+                <p id="contactInfo" class="contact-info"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>2026 aidai-soft_engineer</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
